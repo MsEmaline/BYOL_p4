@@ -23,8 +23,6 @@ header {
 
 nav {
   background-color: rgba(0, 0, 0, 0.308);
-  /* height: 40px; */
-  /* width: 1024; */
   text-align: center;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -40,13 +38,11 @@ main {
 }
 
 footer {
-  background-color: rgba(169, 243, 85, 0.479);
+  background-color: rgba(0, 0, 0, 0.728);
   padding-top: 50px;
   padding-bottom: 50px;
-
-  /* height: 100px; */
-  /* width: 1024; */
 }
+
 
 h1 {
   font-size: 84px;
@@ -78,6 +74,10 @@ footer p {
   font-size: 10px;
   text-align: center;
   color: rgb(179, 190, 199);
+}
+
+.maps {
+  padding-bottom: 100px;
 }
 
 /* .no-underline {
