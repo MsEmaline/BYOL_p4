@@ -124,7 +124,7 @@ p {
 }
 
 .mybutton:hover {
-    background-color: rgb(31, 212, 152);
+    background-color: rgb(29, 213, 103);
     transition-duration: 1s;
 }
 
@@ -134,7 +134,6 @@ a.mybutton {
     0px;
 }
 
-
 nav a.mybutton {
     margin-left: 30px;
 }
@@ -143,13 +142,15 @@ nav a.mybutton {
     border: 1px solid white;
     padding: 11px 25px;
     font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
 }
 
 .testimonials {
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .tbox {
@@ -157,15 +158,37 @@ nav a.mybutton {
     padding: 50px;
     border: 1px solid white;
     box-sizing: border-box;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* .tbox :last-child {
-    font size: .8rem
+    font-size: .8rem;
 } */
 
-.tbox p :last-of-type {
-    font-size: .8rem;
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
     padding-left: 30px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navbutton a {
+    color: #FA4083;
 }
 
