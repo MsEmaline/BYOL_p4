@@ -1,13 +1,12 @@
 html {
     background-image: linear-gradient(#FC5E55, #FA4083);
-
 }
 
 body {
     background-image: url(images/image-lion-background.png);
-   /* background-position: top center; */
-   background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
+    background-position: top center; 
+    background-repeat: no-repeat;
+     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
 }
@@ -33,6 +32,8 @@ header {
     padding-bottom: 20px;
     border-bottom: 1px solid lightgrey;
 }
+
+
 
 main {
     min-height: 300px;
@@ -201,6 +202,32 @@ nav a.mybutton {
     color: #FA4083;
 }
 
+
 .inputwrapper {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px; 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0px;
 }
