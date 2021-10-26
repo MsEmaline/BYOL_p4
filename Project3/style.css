@@ -5,10 +5,19 @@
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
+.col {
+    background-color: rgb(230, 124, 186);
+    min-height: 200px;
+    width: 30%;
+    /* display: inline-block */
 
+   
+}
 
 
 /* Tablet View */
