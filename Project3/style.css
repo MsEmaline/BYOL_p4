@@ -88,6 +88,8 @@ header {
     display: block;
 }
 
+
+
 }
 
 
@@ -104,11 +106,17 @@ header {
         display: none;
     }
 
-}
-
-header {
+}header {
     display: block;
     text-align: center;
+}
+
+.header-container {
+    position: relative;
+}
+
+.container {
+    padding-top: 40px;
 }
 
 nav a {
@@ -123,3 +131,4 @@ nav a {
 .mybutton {
     margin-left: 0;
 }
+
