@@ -24,6 +24,8 @@ a {
     background-color: rgb(60, 60, 60);
     min-height: 100px;
     margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
 }
 
 header {
@@ -70,6 +72,9 @@ header {
     margin-left: 20px;
 }
 
+.highlight {
+    font-weight: 700;
+}
 
 /* Tablet View */
 @media (max-width: 768px){
