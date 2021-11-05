@@ -96,6 +96,10 @@ header {
     display: block;
 }
 
+/* header {
+    display: Block;
+    text-align: center;
+} */
 
 .header-container {
     position: relative;
@@ -140,12 +144,8 @@ nav a {
     text-align: center;
 }
 
-.mob-wrapper {
-    display: block;
-}
-.mob-nav {
-    display: none;
-}
+
+
 }
 
 
